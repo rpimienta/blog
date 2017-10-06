@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Righteous', cursive;  
+  margin:0px;
+}
