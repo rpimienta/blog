@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Socials from './socials';
 
 class Menu extends Component {
   render() {
@@ -42,7 +43,7 @@ class Menu extends Component {
             <li style={categories.list.listItem}><h3>ABOUT ME</h3></li>
           </ul>
         </div>
-        <div style={socials}></div>
+        <Socials />
       </div>
     );
   }
